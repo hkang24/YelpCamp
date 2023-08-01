@@ -101,6 +101,7 @@ const styleSrcUrls = [
     "https://api.tiles.mapbox.com/",
     "https://fonts.googleapis.com/",
     "https://use.fontawesome.com/",
+    'https://fonts.googleapis.com/css2?family=Montserrat&display=swap',
 ];
 const connectSrcUrls = [
     "https://api.mapbox.com/",

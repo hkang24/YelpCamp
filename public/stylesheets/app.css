@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+body {
+    font-family: Montserrat, sans-serif;
+}
 
 #cluster-map {
     width: 100%;
@@ -8,4 +12,54 @@
 #camp-map {
     width: 100%;
     height: 300px;
+}
+
+.campground-index__container {
+    margin: 0 8rem;
+    
+}
+
+.campground-index__h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline 2px;
+}
+
+.campground-index__card {
+    border: none;
+    padding: 1.5rem 2rem;
+    transition: box-shadow .3s
+    ;
+}
+
+.campground-index__card:hover {
+    box-shadow: 1px 0px 5px rgb(182, 182, 182);
+}
+
+.campgrounds-index__btn {
+    width: max-content;
+}
+
+.campground-index__map {
+    /* margin-top: -3rem; */
+}
+
+.users-login__container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2948&q=80");
+    background-position: 50% 50%;
+    min-height: 95vh;
+}
+
+.users-login__container .card-title {
+    text-decoration: underline;
+}
+
+.campground-new__container {
+
+}
+
+.campground-new__card {
+    width: 50%;
+    height: min-content;
 }

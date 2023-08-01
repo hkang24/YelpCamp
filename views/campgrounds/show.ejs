@@ -9,7 +9,7 @@
       <div class="carousel-inner">
         <% campground.images.forEach((img, index) => { %>
         <div class="carousel-item <%= index === 0 ? 'active' : ''%>">
-          <img crossorigin="anonymous" src="<%= img.url%>" class="d-block w-100" alt="..." />
+          <img crossorigin="anonymous" src="<%= img.url.replace('/upload', '/upload/c_fill,h_200,w_300')%>" class="d-block w-100" alt="..." />
         </div>
         <% }) %>
       </div>
@@ -66,7 +66,7 @@
     </div>
   </div>
   <div class="col-6">
-    <div id="camp-map"></div>
+    <div id="camp-map"></div>nodemo
     <% if(currentUser) { %>
     <h2>Leave a Review</h2>
     <form
